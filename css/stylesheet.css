@@ -68,6 +68,7 @@ a:hover {
   left:30%;
   right:30%;
   bottom:15%;
+  min-width:300px;
   overflow-y:auto;
   overflow-x:hidden;
 }
@@ -346,4 +347,27 @@ input.box {
 #preview .ball, #preview .customBall {
   left:50%;
   top:45%;
+}
+
+/* ADS */
+.ad-container {
+  text-align:center;
+  margin-top:40px;
+  margin-bottom:20px;
+}
+
+
+/* RESPONSIVENESS */
+@media (max-width:770px) {
+  .menu, .subMenu {
+    left:20px;
+    right:20px;
+  }
+}
+
+@media (max-width:350px) {
+  .menu, .subMenu {
+    left:0px;
+    right:0px;
+  }
 }
