@@ -28,7 +28,7 @@ if (window.location.hostname == 'sethclydesdale.github.io') {
     
     // function for inserting ads into document
     var insertAds = function() {
-      var content = document.getElementById('content'), ad;
+      var content = document.getElementById('main-menu');
       
       if (content) {
         // ad format
